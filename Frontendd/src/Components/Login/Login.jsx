@@ -50,7 +50,7 @@ const Login = () => {
     if (localStorage.getItem("token")) {
       navigate("/home");
     }
-  }, [navigate]);
+  }, []);
 
   return (
     <div className="justify-center flex flex-col align-middle container">
